@@ -1,8 +1,6 @@
 const mongoose = require('mongoose');
-mongoose.connect('mongodb+srv://GarimaJain:kPKjUaqgs0b1ApUZ@cluster0.whteafy.mongodb.net/?retryWrites=true&w=majority');
+mongoose.connect('mongodb://127.0.0.1:27017/polling_api_system');
 
-// ----->this the code for using the cloud mongodb atlas ------------------------------------------------------- 
-// const url='mongodb+srv://GarimaJain:kPKjUaqgs0b1ApUZ@cluster0.whteafy.mongodb.net/?retryWrites=true&w=majority';
 const connectParams={
     useNewUrlParser:true,
     useUnifiedTopology:true
